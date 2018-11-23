@@ -9,3 +9,6 @@ def home(request):
 
 def about(request):
     return render(request,'SenseHome/classifier.html')
+
+def signup(request):
+    return render(request,'SenseHome/signup.html')
