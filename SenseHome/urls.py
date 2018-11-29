@@ -5,5 +5,6 @@ urlpatterns = [
     path('', views.home, name='Sense-Home'),
     path('about/', views.about, name='Sense-About'),
     path('signup.html/', views.signup, name='Sense-SignUp'),
+    path('chatbot.html/', views.chatbot, name='Sense-Chatbot'),
 
 ]

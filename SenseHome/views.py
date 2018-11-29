@@ -12,3 +12,6 @@ def about(request):
 
 def signup(request):
     return render(request,'SenseHome/signup.html')
+
+def chatbot(request):
+    return render(request,'SenseHome/chatbot.html')
